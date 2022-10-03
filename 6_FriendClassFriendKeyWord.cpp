@@ -1,6 +1,6 @@
 /**
  * @file 6_FriendClassFriendKeyWord.cpp
- * @author pvtVarOfFriendClass
+ * @author Md. Yousuf Ali (yousuf.cse17@gmail.com)
  * @brief Application of friend key word with friend class (Accessing private member variable from another class)
  * @version 0.1
  * @date 2022-10-02
