@@ -1,5 +1,5 @@
 /**
- * @file 17_CopyConstructorNDestructor.cpp17_CopyConstructorNDestructor.cpp
+ * @file 17_CopyConstructorNDestructor.cpp
  * @author Md. Yousuf Ali (yousuf.cse17@gmail.com)
  * @brief When you use copy-constructor be careful for destructor possible value missing
  * @version 0.1
@@ -26,7 +26,7 @@ public:
     // ~StringLength(){
     //     delete fullname;
     // }
-    // /*A copy constructor*/
+    /*A copy constructor*/
     StringLength(StringLength &str){
         strcpy(fullname, str.fullname);
     }
