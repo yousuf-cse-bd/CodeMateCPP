@@ -24,7 +24,7 @@ public:
     void showName(void){
         cout<<"The name: "<<name<<endl;
     }
-    ObjectReturnFromFunction(){
+    ~ObjectReturnFromFunction(){
         cout<<"\t\tDestructor..."<<endl;
     }
 };
