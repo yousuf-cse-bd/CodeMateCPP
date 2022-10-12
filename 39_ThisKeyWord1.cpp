@@ -1,7 +1,7 @@
 /**
  * @file 39_ThisKeyWord1.cpp
- * @author your name (you@domain.com)
- * @brief Use of this key word
+ * @author Md. Yousuf Ali (yousuf.cse17@gmail.com)
+ * @brief Use of this key word in class in constructor
  * @version 0.1
  * @date 2022-10-12
  * @since WednesDay; 12:08 PM
