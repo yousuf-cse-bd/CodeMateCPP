@@ -1,7 +1,7 @@
 /**
  * @file 40_Inheritance.cpp
  * @author Md. Yousuf Ali (yousuf.cse17@gmail.com)
- * @brief Inheritance extend code reusability
+ * @brief Inheritance increases extend code reusability
  * @version 0.1
  * @date 2022-10-12
  * @since WednesDay; 08:57 PM
@@ -36,6 +36,7 @@ public:
         this->registrationDate = registrationDate;
     }
     void showRegistrationInfo(void){
+        showStudentInfo();
         cout<<"Registration Fees: "<<registrationFees<<endl;
         cout<<"Registration Date: "<<registrationDate<<endl;
     }
@@ -46,6 +47,7 @@ int main(int argc, char const *argv[]){
     system("cls");
     Registration studentRegistration("Md. Yousuf Ali", 171311101, 10000, "11/10/2022");
     studentRegistration.showStudentInfo();
+    cout<<endl;
     studentRegistration.showRegistrationInfo();
     return 0;
 }
