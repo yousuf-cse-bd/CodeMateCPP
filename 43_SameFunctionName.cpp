@@ -29,8 +29,8 @@ public:
 int main(int argc, char const *argv[]){
     /* code */
     system("cls");
-   DerivedClass d1 = DerivedClass();
-   d1.helloFunction();
-   d1.BaseClass::helloFunction();
+    DerivedClass d1 = DerivedClass();
+    d1.helloFunction();
+    d1.BaseClass::helloFunction();
     return 0;
 }
