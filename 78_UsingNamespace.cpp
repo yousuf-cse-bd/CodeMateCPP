@@ -16,12 +16,16 @@ namespace T{
            std :: cout<<"Hello, Yousuf!"<<std ::endl; /*Here, std just for cout & endl*/
         }
     };
+    void someFunction(){
+        std:: cout<<"A stand-alone function"<< std:: endl;
+    }
 }
 
 int main(int argc, char const *argv[]){
     /* code */
     system("cls");
     using namespace T;
+    someFunction();
     X x;
     x.showMessage();
     return 0;
